@@ -44,7 +44,7 @@ function Contact() {
             <ul>
                 <li><img src={mail_icon} alt=''/>Contact@KayJay.dev</li>
                 <li><img src={phone_icon} alt=''/>+94 70 123 4567</li>
-                <li><img src={location_icon} alt=''/>22 hillStreet<br/> Washington DC</li>
+                <li><img src={location_icon} alt=''/>No. 22, HillStreet.<br/> Washington DC.</li>
             </ul>
         </div>
         <div className='contact-col'>
@@ -55,7 +55,7 @@ function Contact() {
                 <input type='tel' name='phone' placeholder='Enter your mobile number' required/>
                 <label>Write your message here</label>
                 <textarea name='message'  rows="6" placeholder='Enter your message' required></textarea>
-                <button type='submit' className='btn gark-btn'>Submit now <img src={white_arrow} alt=''/></button>
+                <button type='submit' className='btn dark-btn'>Submit now <img src={white_arrow} alt=''/></button>
             </form>
             <span>{result}</span>
 
